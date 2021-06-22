@@ -9,4 +9,3 @@ for i in range(120):
 hideturtle()
 done()
 
-print("Ende!")
