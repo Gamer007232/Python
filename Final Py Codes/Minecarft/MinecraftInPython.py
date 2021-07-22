@@ -13,7 +13,7 @@ for n in range(8):
             texture= 'white_cube',
             color= color.orange,
             highlight_color= color.lime,
-            position= (k,0,n)
+            position= (k ,0 ,n)
         )
         boxes.append(box)
 
@@ -22,7 +22,7 @@ def input(key):
         if box.hovered:
             if key== 'left mouse down':
                 newBox = Button(
-                    parent= scene,
+                    parent = scene,
                 model= 'cube',
                 origin_y= 8.5,
                 texture= 'white_cube',
